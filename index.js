@@ -9,6 +9,12 @@ const {
 const fs = require('fs');
 
 // ===================== CONFIG =====================
+const { Client, GatewayIntentBits } = require("discord.js");
+
+// Crear la instancia del bot
+const client = new Client({
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] // ajusta según lo que uses
+});
 client.login(process.env.DISCORD_TOKEN);
 const CLIENT_ID = "1475243172765630584";
 const GUILD_ID = "1475243595266261002";
