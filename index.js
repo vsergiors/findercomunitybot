@@ -9,7 +9,7 @@ const {
 const fs = require('fs');
 
 // ===================== CONFIG =====================
-const TOKEN = "MTQ3NTI0MzE3Mjc2NTYzMDU4NA.GaSrac.K1r2bHCneRl5x9P362lJ-3kCHo3iJJ5RHVRDP4";
+client.login(process.env.DISCORD_TOKEN);
 const CLIENT_ID = "1475243172765630584";
 const GUILD_ID = "1475243595266261002";
 
